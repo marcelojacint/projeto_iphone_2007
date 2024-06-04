@@ -7,6 +7,11 @@ public class IphoneApp {
 	public static void main(String[] args) {
 
 		IPhone iphone = new IPhone();
+		
+		/*
+		 * poderia ter um switch case
+		 * para interação com o usuário 
+		 * */
 
 		System.out.println("INTERNET");
 		System.out.println();

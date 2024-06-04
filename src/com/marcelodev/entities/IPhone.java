@@ -6,12 +6,14 @@ import com.marcelodev.telephoneDevices.Phone;
 
 public class IPhone {
 
-	private Internet internet = new Internet();
-	private Ipod ipod = new Ipod();
-	private Phone phone = new Phone();
+	private Internet internet;
+	private Ipod ipod;
+	private Phone phone;
 
 	public IPhone() {
-	
+		this.internet = new Internet();
+		this.ipod = new Ipod();
+		this.phone = new Phone();
 	}
 
 	public Internet getInternet() {
